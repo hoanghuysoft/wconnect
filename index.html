@@ -14,299 +14,184 @@
     <title>WConnect Home Page</title>
 </head>
 <body>
-<section class="bg">
-    <section class="background">
+<!-- Background header image -->
+<section class="header-background">
+    <section class="header-background__container">
         <img
                 src="assets/images/1953149968451336.jpg"
                 alt="profile-background"
-                class="background-image"
+                class="header-background__image"
         />
     </section>
 </section>
 
+<!-- Main content area -->
+<div class="main-content">
+    <!-- Navigation bar -->
+    <section class="navbar">
+        <span class="navbar__logo">WConnect</span>
+        <div class="navbar__controls">
+            <div class="search-bar">
+                <div class="search-bar__input-container">
+                    <div class="search-bar__input-wrapper">
+                        <p class="search-bar__placeholder">Search for posts, friends and more</p>
+                    </div>
+                </div>
+                <button type="button" class="search-bar__button" title="Search">
+                    <img src="assets/images/Search.svg" alt="Search"/>
+                </button>
+            </div>
+            <button type="button" class="notification-button" title="Notification">
+                <img src="assets/images/Notification.svg" alt="Notification icon"/>
+            </button>
+        </div>
+    </section>
 
-<section class="top-bar">
-    <span class="logo">WConnect</span>
-    <div class="overlap">
-        <div class="input">
-            <div class="overlap-group">
-                <p class="input-placeholder">Search for posts, friends and more</p>
+    <!-- Welcome message -->
+    <section class="welcome-section">
+        <div class="welcome-section__greeting">Good morning, Tai!</div>
+        <p class="welcome-section__message">
+            You got 36 unread messages from your friends. Go and check it out!
+        </p>
+    </section>
+
+    <!-- Create post area -->
+    <section class="create-post">
+        <div class="create-post__actions">
+            <button class="create-post__action-button">
+                <img class="create-post__action-icon" src="assets/images/Camera.svg" alt="Camera icon"/>
+                <div class="create-post__action-text">Photo/video</div>
+            </button>
+            <button class="create-post__action-button">
+                <img class="create-post__action-icon" src="assets/images/Video.svg" alt="Video icon"/>
+                <div class="create-post__action-text">Live video</div>
+            </button>
+            <button class="create-post__action-button">
+                <img class="create-post__action-icon" src="assets/images/Checkin.svg" alt="Checkin icon"/>
+                <div class="create-post__action-text">Checkin</div>
+            </button>
+        </div>
+        <div class="create-post__placeholder">What's on your mind?</div>
+    </section>
+
+    <!-- Stories section -->
+    <section class="stories">
+        <div class="story-card">
+            <img class="story-card__image" src="assets/images/1953149968451336.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img src="assets/images/Circle%20adding.png" alt="Add story icon"/>
+                <div class="story-card__text">Create your story</div>
             </div>
         </div>
-        <button type="button" class="notification" title="Search">
-            <img class="img" src="assets/images/Search.svg" alt="Search"/>
-        </button>
-    </div>
-    <button type="button" class="notification-button" title="Notification">
-        <img class="img" src="assets/images/Notification.svg" alt=""/>
-    </button>
-</section>
-
-<section class="introduction">
-    <div class="hello-message">Good morning, Tai!</div>
-    <p class="message-notify">
-        You got 36 unread messages from your friends. Go and check it out!
-    </p>
-</section>
-
-<section class="post-panel">
-    <div class="frame">
-        <button class="post-component">
-            <img class="icon" src="assets/images/Camera.svg" alt=""/>
-            <div class="title">Photo/video</div>
-        </button>
-        <button class="post-component">
-            <img class="icon" src="assets/images/Video.svg" alt=""/>
-            <div class="title">Live video</div>
-        </button>
-        <button class="post-component">
-            <img class="icon" src="assets/images/Checkin.svg" alt=""/>
-            <div class="title">Checkin</div>
-        </button>
-    </div>
-    <div class="placeholder">What’s on your mind?</div>
-</section>
-
-<section class="story-panel">
-    <div class="story">
-        <img class="background" src="assets/images/1953149968451336.jpg" alt=""/>
-        <div class="transition" style=""></div>
-        <div class="story-content">
-            <img src="assets/images/Circle%20adding.png" alt=""/>
-            <div class="story-text">Create your story</div>
+        <div class="story-card">
+            <img class="story-card__image" src="assets/images/1953149968451336.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img src="assets/images/Circle%20adding.png" alt="Add story icon"/>
+                <div class="story-card__text">Create your story</div>
+            </div>
         </div>
-    </div>
-    <div class="story">
-        <img class="background" src="assets/images/1953149968451336.jpg" alt=""/>
-        <div class="transition" style=""></div>
-        <div class="story-content">
-            <img src="assets/images/Circle%20adding.png" alt=""/>
-            <div class="story-text">Create your story</div>
+        <div class="story-card">
+            <img class="story-card__image" src="assets/images/1953149968451336.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img src="assets/images/Circle%20adding.png" alt="Add story icon"/>
+                <div class="story-card__text">Create your story</div>
+            </div>
         </div>
-    </div>
-    <div class="story">
-        <img class="background" src="assets/images/1953149968451336.jpg" alt=""/>
-        <div class="transition" style=""></div>
-        <div class="story-content">
-            <img src="assets/images/Circle%20adding.png" alt=""/>
-            <div class="story-text">Create your story</div>
+        <div class="story-card">
+            <img class="story-card__image" src="assets/images/1953149968451336.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img src="assets/images/Circle%20adding.png" alt="Add story icon"/>
+                <div class="story-card__text">Create your story</div>
+            </div>
         </div>
-    </div>
-    <div class="story">
-        <img class="background" src="assets/images/1953149968451336.jpg" alt=""/>
-        <div class="transition" style=""></div>
-        <div class="story-content">
-            <img src="assets/images/Circle%20adding.png" alt=""/>
-            <div class="story-text">Create your story</div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<section>
-    <div class="posts">
-        <div class="post">
-            <div class="frame">
-                <div class="div">
-                    <div class="avatar-post">
-                        <img class="ellipse" src="assets/images/1953149968451336.jpg" alt=""/>
-                        <div class="frame-2">
-                            <div class="text-wrapper">Tai Nguyen</div>
-                            <div class="frame-3">
-                                <img class="path" src="assets/images/Public.svg" alt=""/>
-                                <div class="text-wrapper-2">1 day ago</div>
+    <!-- Post feed -->
+    <section class="post-feed">
+        <div class="post-card">
+            <div class="post-card__container">
+                <div class="post-card__header">
+                    <div class="post-card__author">
+                        <img class="post-card__avatar" src="assets/images/1953149968451336.jpg" alt="Profile picture"/>
+                        <div class="post-card__info">
+                            <div class="post-card__author-name">Tai Nguyen</div>
+                            <div class="post-card__metadata">
+                                <img class="post-card__privacy-icon" src="assets/images/Public.svg" alt="Public post"/>
+                                <div class="post-card__time">1 day ago</div>
                             </div>
                         </div>
                     </div>
-                    <div class="group"><img class="img" src="assets/images/more.svg" alt=""/></div>
+                    <div class="post-card__more-options">
+                        <img src="assets/images/more.svg" alt="More options"/>
+                    </div>
                 </div>
-                <p class="p">
+                <p class="post-card__text">
                     I know this is a lots to tell 😁but I am so excited to tell you that this journey of my life was so
                     amazing,
                     there no words that I can use to describe that.😎 See that all below!
                 </p>
-                <img class="rectangle" src="assets/images/post1.jpg" alt=""/>
-                <div class="frame-4">
-                    <div class="frame-5">
-                        <p class="element-comments">3.4k Comments . 46 Shares</p>
-                        <div class="div">
-                            <div class="frame-6">
-                                <div class="svgexport-wrapper">
-                                    <img class="svgexport" src="assets/images/Like.png" alt=""/>
+                <img class="post-card__media" src="assets/images/post1.jpg" alt="Post image"/>
+                <div class="post-engagement">
+                    <div class="post-engagement__stats">
+                        <p class="post-engagement__stats-text">3.4k Comments . 46 Shares</p>
+                        <div class="post-card__header">
+                            <div class="post-engagement__actions">
+                                <div class="post-engagement__action-button post-engagement__action-button--active">
+                                    <img class="post-engagement__action-icon" src="assets/images/Like.png" alt="Like"/>
                                 </div>
-                                <div class="group-wrapper">
-                                    <img class="div-wrapper" src="assets/images/Chat.png" alt=""/>
+                                <div class="post-engagement__action-button post-engagement__action-button--inactive">
+                                    <img class="post-engagement__action-icon" src="assets/images/Chat.png" alt="Comment"/>
                                 </div>
-                                <div class="img-wrapper"><img class="group-6" src="img/group-5.png"/></div>
+                                <div class="post-engagement__action-button post-engagement__action-button--inactive">
+                                    <img class="post-engagement__action-icon" src="assets/images/Share.svg" alt="Share"/>
+                                </div>
                             </div>
-                            <div class="frame-7">
-                                <p class="q-a-with-mark">Q&amp;A with Mark &amp; 361k others</p>
-                                <div class="frame-8">
-                                    <div class="love-wrapper">
-                                        <div class="div-wrapper-2">
-                                            <div class="love">
-                                                <div class="overlap-group">
-                                                    <img class="path-2" src="img/path-328.svg"/> <img class="light"
-                                                                                                      src="img/light.png"/>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="post-engagement__reactions">
+                                <p class="post-engagement__reactions-text">Q&amp;A with Mark &amp; 361k others</p>
+                                <div class="post-engagement__reaction-icons">
+                                    <div class="reaction-icon">
+                                        <img src="assets/images/Love.svg" alt="Love reaction"/>
                                     </div>
-                                    <div class="t-wrapper">
-                                        <div class="t">
-                                            <div class="overlap-group-2">
-                                                <img class="group-7" src="img/group-54.png"/> <img class="light"
-                                                                                                   src="img/light-2.png"/>
-                                            </div>
-                                        </div>
+                                    <div class="reaction-icon reaction-icon--overlap">
+                                        <img src="assets/images/Like.svg" alt="Like reaction"/>
                                     </div>
-                                    <div class="lovely-wrapper">
-                                        <div class="div-wrapper-2">
-                                            <div class="h">
-                                                <div class="overlap-group-3"><img class="group-8"
-                                                                                  src="img/group-52-2.png"/></div>
-                                            </div>
-                                        </div>
+                                    <div class="reaction-icon reaction-icon--overlap">
+                                        <img src="assets/images/Care.svg" alt="Care reaction"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="frame-4">
-                        <img class="line" src="img/line-5.svg"/>
-                        <div class="frame-9">
-                            <div class="frame-10">
-                                <img class="ellipse-2" src="img/ellipse-40-2.svg"/>
-                                <div class="frame-11">
-                                    <div class="frame-12">
-                                        <div class="time">Mark Ramos</div>
-                                        <p class="what-a-greet-trip">Man that was good! How’d come up with that?</p>
+                    <div class="comments-section">
+                        <hr class="comments-section__divider">
+                        <div class="comment">
+                            <div class="comment__container">
+                                <img class="comment__avatar" src="assets/images/jayden.png" alt="Commenter avatar"/>
+                                <div class="comment__content">
+                                    <div class="comment__text-container">
+                                        <div class="comment__author">Mark Ramos</div>
+                                        <p class="comment__text">Man that was good! How'd come up with that?</p>
                                     </div>
-                                    <div class="frame-13">
-                                        <div class="frame-14">
-                                            <div class="text-wrapper-3">Like</div>
-                                            <div class="text-wrapper-3">Reply</div>
+                                    <div class="comment__actions">
+                                        <div class="comment__action-buttons">
+                                            <div class="comment__action-button">Like</div>
+                                            <div class="comment__action-button">Reply</div>
                                         </div>
-                                        <div class="text-wrapper-4">2m</div>
+                                        <div class="comment__time">2m</div>
                                     </div>
                                 </div>
                             </div>
-                            <img class="group-9" src="img/group-117.png"/>
+                            <img class="comment__more-options" src="assets/images/More2.svg" alt="More options"/>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="frame-wrapper">
-            <div class="frame-15">
-                <div class="div">
-                    <div class="avatar-post">
-                        <img class="ellipse" src="img/ellipse-42.png"/>
-                        <div class="frame-2">
-                            <p class="alex-sander">
-                                <span class="span">Trang Nguyen</span>
-                                <span class="text-wrapper-5">&nbsp;</span>
-                                <span class="text-wrapper-6">tagged</span>
-                                <span class="text-wrapper-7"> Alex Sander </span>
-                                <span class="text-wrapper-6">and 3 others</span>
-                            </p>
-                            <div class="frame-16">
-                                <img class="path" src="img/path-358.svg"/>
-                                <div class="text-wrapper-2">4 minutes ago</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group-10"><img class="img" src="img/group-112.png"/></div>
-                </div>
-                <p class="i-know-this-is-a">
-            <span class="text-wrapper-8"
-            >Life is a journey. Sometimes it is hard, you don’t know how to what to do anymore, you are lost. But most
-              of the time, you can only just listen to your heart, it will tell you what to do.<br
-                /></span>
-                    <span class="text-wrapper-9">@AlexSander</span>
-                </p>
-                <div class="frame-4">
-                    <div class="frame-5">
-                        <p class="element-comments">100.5k Comments . 50.5k Shares</p>
-                        <div class="div">
-                            <div class="frame-6">
-                                <div class="group-11">
-                                    <div class="svgexport">
-                                        <img class="group-2" src="img/group-7.png"/> <img class="group-3"
-                                                                                          src="img/group.png"/>
-                                    </div>
-                                </div>
-                                <div class="group-12">
-                                    <div class="div-wrapper">
-                                        <div class="group-4">
-                                            <div class="group-13">
-                                                <img class="element-IMG" src="img/20220831143623-IMG-4810-1-1-1-4.svg"/>
-                                                <img class="element-IMG-2" src="img/image.svg"/>
-                                                <img class="element-IMG-3" src="img/20220831143623-IMG-4810-1-1-1.svg"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="group-14"><img class="group-6" src="img/group-6.png"/></div>
-                            </div>
-                            <div class="frame-7">
-                                <p class="q-a-with-mark">Trang with Alex &amp; 361k others</p>
-                                <div class="frame-8">
-                                    <div class="love-wrapper">
-                                        <div class="div-wrapper-2">
-                                            <div class="overlap-group-wrapper">
-                                                <div class="overlap-group">
-                                                    <img class="path-2" src="img/path-328-2.svg"/> <img class="light"
-                                                                                                        src="img/light-4.png"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="t-wrapper">
-                                        <div class="t-2">
-                                            <div class="overlap-group-2">
-                                                <img class="group-7" src="img/group-54-2.png"/> <img class="light"
-                                                                                                     src="img/light-3.png"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="lovely-wrapper">
-                                        <div class="div-wrapper-2">
-                                            <div class="h-2">
-                                                <div class="overlap-group-4"><img class="group-8"
-                                                                                  src="img/group-52.png"/></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="frame-4">
-                        <img class="line" src="img/line-5-2.svg"/>
-                        <div class="frame-9">
-                            <div class="frame-10">
-                                <img class="ellipse-2" src="img/ellipse-40-4.svg"/>
-                                <div class="frame-11">
-                                    <div class="frame-12">
-                                        <div class="time">Alex Sander</div>
-                                        <p class="what-a-greet-trip">Babe, Can I meet you now? I missed you so much.</p>
-                                    </div>
-                                    <div class="frame-13">
-                                        <div class="frame-14">
-                                            <div class="text-wrapper-3">Like</div>
-                                            <div class="text-wrapper-3">Reply</div>
-                                        </div>
-                                        <div class="text-wrapper-4">2m</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <img class="group-9" src="img/group-117-2.png"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 </body>
 </html>
