@@ -1,0 +1,12 @@
+{
+  "appId": "com.techfox.wconnect",
+  "appName": "WConnect",
+  "webDir": "src",
+  "plugins": {
+    "StatusBar": {
+      "backgroundColor": "#00000000",
+      "overlaysWebView": true,
+      "style": "LIGHT"
+    }
+  }
+}

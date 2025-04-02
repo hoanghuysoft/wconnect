@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/home.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+    />
+    <title>WConnect Home Page</title>
+</head>
+<body>
+<!-- Background header image -->
+<section class="top-bar-holder" style="width: 100%; height: 450px; backdrop-filter: blur(100px);
+  mask-image: linear-gradient(to top,
+  rgba(255, 255, 255, 0.2) 0%,
+  rgba(255, 255, 255, 0.3) 7%,
+  rgba(255, 255, 255, 0.4) 13%,
+  rgba(255, 255, 255, 0.5) 20%,
+  rgba(255, 255, 255, 0.6) 27%,
+  rgba(255, 255, 255, 0.68) 33%,
+  rgba(255, 255, 255, 0.75) 40%,
+  rgba(255, 255, 255, 0.8) 47%,
+  rgba(255, 255, 255, 0.85) 53%,
+  rgba(255, 255, 255, 0.88) 60%,
+  rgba(255, 255, 255, 0.91) 67%,
+  rgba(255, 255, 255, 0.94) 73%,
+  rgba(255, 255, 255, 0.96) 80%,
+  rgba(255, 255, 255, 0.98) 87%,
+  rgba(255, 255, 255, 0.99) 93%,
+  white 100%);">
+</section>
+<section class="header-background">
+    <section class="header-background__container">
+        <img
+                src="../assets/images/1953149968451336.jpg"
+                alt="profile-background"
+                class="header-background__image"
+        />
+    </section>
+</section>
+
+<!-- Main content area -->
+<div class="main-content">
+    <!-- Navigation bar -->
+    <section class="navbar">
+        <span class="navbar__logo">WConnect</span>
+        <div class="navbar__controls">
+            <div class="search-bar">
+                <div class="search-bar__input-container">
+                    <div class="search-bar__input-wrapper">
+                        <p class="search-bar__placeholder">Search for posts, friends and more</p>
+                    </div>
+                </div>
+                <button type="button" class="search-bar__button" title="Search">
+                    <img src="../assets/images/Search.svg" alt="Search"/>
+                </button>
+            </div>
+            <button type="button" class="notification-button" title="Notification">
+                <img src="../assets/images/Notification.svg" alt="Notification icon"/>
+            </button>
+        </div>
+    </section>
+
+    <!-- Welcome message -->
+    <section class="welcome-section">
+        <div class="welcome-section__greeting">Good morning, Tai!</div>
+        <p class="welcome-section__message">
+            You got 36 unread messages from your friends. Go and check it out!
+        </p>
+    </section>
+
+    <!-- Create post area -->
+    <section class="create-post">
+        <div class="create-post__actions">
+            <button class="create-post__action-button">
+                <img class="create-post__action-icon" src="../assets/images/Camera.svg" alt="Camera icon"/>
+                <div class="create-post__action-text">Photo/video</div>
+            </button>
+            <button class="create-post__action-button">
+                <img class="create-post__action-icon" src="../assets/images/Video.svg" alt="Video icon"/>
+                <div class="create-post__action-text">Live video</div>
+            </button>
+            <button class="create-post__action-button">
+                <img class="create-post__action-icon" src="../assets/images/Checkin.svg" alt="Checkin icon"/>
+                <div class="create-post__action-text">Checkin</div>
+            </button>
+        </div>
+        <div class="create-post__placeholder">What's on your mind?</div>
+    </section>
+
+    <!-- Stories section -->
+    <section class="stories">
+        <div class="story-card">
+            <img class="story-card__image" src="../assets/images/1953149968451336.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img src="../assets/images/Circle%20adding.png" alt="Add story icon"/>
+                <div class="story-card__text">Create your story</div>
+            </div>
+        </div>
+        <div class="story-card">
+            <img class="story-card__image" src="../assets/images/post3.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img class="avatar" src="../assets/images/person2.jpg" alt="Add story icon"/>
+                <div class="story-card__text">Rosie r rose</div>
+            </div>
+        </div>
+        <div class="story-card">
+            <img class="story-card__image" src="../assets/images/post2.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img class="avatar" src="../assets/images/person1.jpg" alt="Add story icon"/>
+                <div class="story-card__text">Minh Tri</div>
+            </div>
+        </div>
+        <div class="story-card">
+            <img class="story-card__image" src="../assets/images/post4.jpg" alt="Story thumbnail"/>
+            <div class="story-card__overlay"></div>
+            <div class="story-card__content">
+                <img class="avatar" src="../assets/images/person4.jpg" alt="Add story icon"/>
+                <div class="story-card__text">I am Cat</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post feed -->
+    <section class="post-feed">
+        <div class="post-card">
+            <div class="post-card__container">
+                <div class="post-card__header">
+                    <div class="post-card__author">
+                        <img class="post-card__avatar" src="../assets/images/1953149968451336.jpg" alt="Profile picture"/>
+                        <div class="post-card__info">
+                            <div class="post-card__author-name">Tai Nguyen</div>
+                            <div class="post-card__metadata">
+                                <img class="post-card__privacy-icon" src="../assets/images/Public.svg" alt="Public post"/>
+                                <div class="post-card__time">1 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-card__more-options">
+                        <img src="../assets/images/more.svg" alt="More options"/>
+                    </div>
+                </div>
+                <p class="post-card__text">
+                    I know this is a lots to tell 😁but I am so excited to tell you that this journey of my life was so
+                    amazing,
+                    there no words that I can use to describe that.😎 See that all below!
+                </p>
+                <img class="post-card__media" src="../assets/images/post1.jpg" alt="Post image"/>
+                <div class="post-engagement">
+                    <div class="post-engagement__stats">
+                        <p class="post-engagement__stats-text">3.4k Comments . 46 Shares</p>
+                        <div class="post-card__header">
+                            <div class="post-engagement__actions">
+                                <div class="post-engagement__action-button post-engagement__action-button--active">
+                                    <img class="post-engagement__action-icon" src="../assets/images/Like.png" alt="Like"/>
+                                </div>
+                                <div class="post-engagement__action-button post-engagement__action-button--inactive">
+                                    <img class="post-engagement__action-icon" src="../assets/images/Chat.png"
+                                         alt="Comment"/>
+                                </div>
+                                <div class="post-engagement__action-button post-engagement__action-button--inactive">
+                                    <img class="post-engagement__action-icon" src="../assets/images/Share.svg"
+                                         alt="Share"/>
+                                </div>
+                            </div>
+                            <div class="post-engagement__reactions">
+                                <p class="post-engagement__reactions-text">Q&amp;A with Mark &amp; 361k others</p>
+                                <div class="post-engagement__reaction-icons">
+                                    <div class="reaction-icon">
+                                        <img src="../assets/images/Love.svg" alt="Love reaction"/>
+                                    </div>
+                                    <div class="reaction-icon reaction-icon--overlap">
+                                        <img src="../assets/images/Like.svg" alt="Like reaction"/>
+                                    </div>
+                                    <div class="reaction-icon reaction-icon--overlap">
+                                        <img src="../assets/images/Care.svg" alt="Care reaction"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments-section">
+                        <hr class="comments-section__divider">
+                        <div class="comment">
+                            <div class="comment__container">
+                                <img class="comment__avatar" src="../assets/images/jayden.png" alt="Commenter avatar"/>
+                                <div class="comment__content">
+                                    <div class="comment__text-container">
+                                        <div class="comment__author">Mark Ramos</div>
+                                        <p class="comment__text">Man that was good! How'd come up with that?</p>
+                                    </div>
+                                    <div class="comment__actions">
+                                        <div class="comment__action-buttons">
+                                            <div class="comment__action-button">Like</div>
+                                            <div class="comment__action-button">Reply</div>
+                                        </div>
+                                        <div class="comment__time">2m</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="comment__more-options" src="../assets/images/More2.svg" alt="More options"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Navigation bar -->
+<section class="bottom-navbar">
+    <nav class="nav-bar" aria-label="Main navigation">
+        <a href="#" class="nav-link active">
+            <img class="home" src="../assets/images/Home.svg" alt="Home"/>
+        </a>
+        <a href="#" class="nav-link">
+            <img class="video" src="../assets/images/Video_nav.svg" alt="Navigation icon 2"/>
+        </a>
+        <a href="#" class="nav-link">
+            <img class="messenger" src="../assets/images/Messenger.svg" alt="Facebook Messenger logo"/>
+        </a>
+        <a href="#" class="nav-link">
+            <img class="profile" src="../assets/images/1953149968451336.jpg" alt="User profile picture"/>
+        </a>
+    </nav>
+</section>
+
+<script src="js/home.js"></script>
+</body>
+</html>
